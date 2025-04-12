@@ -7,7 +7,7 @@ import openai
 app = Flask(__name__)
 
 # MongoDB connection
-mongo_uri = "mongodb+srv://username:password@clusterdb.cvr9ahm.mongodb.net/?retryWrites=true&w=majority&appName=ClusterDB"
+mongo_uri = "put your URI here"
 client = MongoClient(mongo_uri)
 db = client.Call_logs  # Capital "C" to match existing DB in Atlas
 collection = db.transcripts
